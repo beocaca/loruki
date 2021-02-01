@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+:root {
+  --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
+  --success-color: #5cb85c;
+  --error-color: #d9534f
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%
+}
+
+.container {
+  padding: 0 40px;
+  max-width: 1100px;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr );
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr );
+}
+
+.text-center {
+  text-align: center;
+}
+
+.alert {
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+
+  i {
+    margin-right: 10px;
+  }
+}
+
+.alert-success {
+  background-color: var(--success-color);
+  color: white;
+}
+
+
+.card {
+  color: #333;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+  &:hover {
+    transform: scale(.97);
+  }
+}
+
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: white;
+}
+
+.bg-dark,
+{
+  a {
+    color: white;
+  }
+}
+
+code, pre {
+  background-color: #333333;
+  color: white;
+  padding: 10px;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #fff
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 1.5rem 0;
+}
+
+.my-4 {
+  margin: 3rem 0;
+}
+
+
+
+
+
+
+
+
+
